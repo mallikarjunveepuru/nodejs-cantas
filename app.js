@@ -35,7 +35,9 @@ app.configure(function () {
   app.use(passport.session());
   app.use(app.router);
 });
-
+/*
+Edited to test
+*/
 app.configure('development', function() {
   app.use(express.errorHandler({
     dumpExceptions: true,
